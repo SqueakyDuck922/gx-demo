@@ -1,0 +1,10 @@
+database:
+    driver: ODBC Driver 18 for SQL Server
+    server: 127.0.0.1
+    port: 1007
+    database: securities_masterC2
+    TrustedConnection: no   
+    username: sa   #Only used if TrustedConnection is false
+    password: Badger99    #Only used if TrustedConnection is false
+    ImportTable: parameter_set_import
+
